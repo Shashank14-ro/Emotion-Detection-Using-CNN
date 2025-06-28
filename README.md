@@ -37,7 +37,7 @@ plaintext
 Copy
 Edit
 emotion-detection-cnn/
-├── dataset/               # Folder for training/testing data or CSV links
+├── dataset/             # Folder for training/testing data or CSV links
 ├── models/                # Saved models (.h5, .pt)
 ├── notebooks/             # Jupyter notebooks for training/experiments
 ├── src/                   # Python scripts for training, prediction, utils
@@ -49,3 +49,7 @@ emotion-detection-cnn/
 ├── README.md
 ├── .gitignore
 └── main.py                # Real-time emotion detection script
+```
+ 80% is training data and 20% testing.
+ The test accuracy is 60% and it can detect upto 5 emotions correctly.
+ 

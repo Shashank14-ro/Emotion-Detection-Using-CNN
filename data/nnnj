@@ -1,1 +1,27 @@
 
+🗃 Dataset
+  FER2013
+Here’s a curated list of **popular datasets used for emotion detection**, along with their key features to help you compare and choose based on your project needs:
+
+### 🧠 Facial Expression Datasets
+
+| Dataset     | Description                                                                 | Emotions Covered                                  | Size         |
+|-------------|-----------------------------------------------------------------------------|---------------------------------------------------|--------------|
+| **FER2013** | Grayscale 48×48 pixel facial images from the Kaggle challenge               | Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral | ~35,000 images |
+| **AffectNet** | Over 1M facial images scraped from the internet with emotion annotations | Anger, Disgust, Fear, Happy, Sad, Surprise, Neutral | 1M+ images   |
+| **CK+ (Cohn-Kanade)** | Labeled facial expression sequences with FACS coding             | 7 basic emotions                                  | ~600 sequences |
+| **EMOTIC**   | Images of people in context, labeled with 26 emotions and 3 valence levels | Contextual emotions (e.g., amused, bored, etc.)   | ~23,000 images |
+
+### 🗣️ Text-Based Emotion Datasets
+
+| Dataset         | Description                                                                 | Emotions Covered                                  | Size         |
+|------------------|-----------------------------------------------------------------------------|---------------------------------------------------|--------------|
+| **dair-ai/emotion** ([Hugging Face](https://huggingface.co/datasets/dair-ai/emotion)) | Text samples labeled with emotions from tweets and conversations | Joy, Sadness, Anger, Fear, Love, Surprise         | ~417,000 samples |
+| **ISEAR**         | International Survey on Emotion Antecedents and Reactions                  | Basic emotions with context                       | ~7,600 records |
+| **GoEmotions**    | Reddit comments labeled with 27 emotion categories                         | Complex emotions (e.g., pride, embarrassment)     | ~58,000 comments |
+
+Based on the purpose choose the datset, on my case i have used 'FER2013' beacuse the datset is labelled of 6 emotions in it, so the training is done in it
+Steps to download: 
+  1. Open Kaggle in browser
+  2. Search for FER2013 or any other above given datsets 
+  3.Kaggle provides the free GPU if you want you can use it

@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import load_model
 
 # Load the pre-trained model
-model = load_model('my_model_lstm.keras')
+model = load_model('my_model.keras')
 
 # Define emotion labels (must match the labels used in training)
 class_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']

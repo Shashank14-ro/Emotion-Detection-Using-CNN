@@ -28,9 +28,9 @@ cd emotion-detection-cnn
 Install Requirements
   ```pip install -r requirements.txt```
  Train Model
-   python src/train.py
+   ```python src/train.py```
  Run Real-Time Detection
-     python main.py
+     ```python main.py```
 ```
 📁 Suggested Project Structure
 plaintext

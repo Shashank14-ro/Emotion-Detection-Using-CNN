@@ -26,7 +26,7 @@ git clone https://github.com/your-username/emotion-detection-cnn.git
 cd emotion-detection-cnn
 ```
 Install Requirements
- pip install -r requirements.txt
+  ```pip install -r requirements.txt```
  Train Model
    python src/train.py
  Run Real-Time Detection

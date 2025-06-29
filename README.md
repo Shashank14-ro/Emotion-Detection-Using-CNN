@@ -3,6 +3,7 @@ A deep learning project for facial emotion detection using Convolutional Neural 
 
 This project performs facial emotion detection using Convolutional Neural Networks (CNN). It can identify emotions like Happy, Sad, Angry, Surprise, etc., from real-time webcam input or images.
 
+Haarcascade.xml is used for object detection; in our project, we use it to detect faces, which are then classified using a CNN algorithm. 
 ## 📌 Features
 - Facial emotion recognition using CNN
 - Trained on FER2013 dataset
